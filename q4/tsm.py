@@ -8,7 +8,7 @@ import sys
 Caso não exista a pasta 'downloads', ela é criada ao chamar este módulo
 """
 caminho_base = os.getcwd()
-diretorio_saida = Path(f'{caminho_base}/downloads')
+diretorio_saida = Path(f'{caminho_base}/download')
 diretorio_saida.mkdir(exist_ok=True, parents=True)
 
 
