@@ -48,5 +48,4 @@ class api_inmet:
             resp = resposta.content
             return resp
         else:
-            return 'ERRO! A requisição encontrou um problema.'
-        
+            return 'ERRO! A requisição encontrou um problema.'        
