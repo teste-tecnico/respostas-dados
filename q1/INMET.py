@@ -1,8 +1,8 @@
 import requests
 import json
 
-class api_ana:
-    """Classe para consumo da api da ANA
+class api_inmet:
+    """Classe para consumo da api do INMET
     """
 
     def __init__(self) -> None:
